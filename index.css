@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Scrollbar needed for the design */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0d12;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f2937;
+  border-radius: 0px;
+  border: 1px solid #374151;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #06b6d4;
+}
+
+/* Custom Font Families from Google Fonts handled in index.html or here via imports if needed, 
+   but previously in index.html they were CDNs. 
+   Ideally we import them in CSS or keep CDN in HTML for fonts. keeping CDN for fonts in HTML is fine. */
